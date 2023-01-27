@@ -1,0 +1,2 @@
+Config = {}
+Config.Lang = 'fr'

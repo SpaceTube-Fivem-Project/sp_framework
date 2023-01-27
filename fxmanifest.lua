@@ -8,7 +8,9 @@ version "1.0.0."
 lua54 'yes'
 
 shared_scripts {
-	'shared/*.lua'
+	'lang.lua',
+	'shared/*.lua',
+	'locales/*.lua',
 }
 
 client_scripts {
@@ -17,4 +19,12 @@ client_scripts {
 
 server_scripts {
 	'server/*.lua'
+}
+
+export {
+	'getLang',
+}
+
+server_export {
+	'getLang',
 }
