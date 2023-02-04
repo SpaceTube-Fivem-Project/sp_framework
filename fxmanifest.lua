@@ -4,7 +4,7 @@ game 'gta5'
 name "sp_framework"
 description "This ressource is Framework to Fivem Project"
 author "SpaceTube_"
-version "1.0.0."
+version "1.0.0"
 lua54 'yes'
 
 shared_scripts {
@@ -18,6 +18,9 @@ client_scripts {
 }
 
 server_scripts {
+	'config/config.lua',
+	'config/config.logs.lua',
+	'server/functions/*.lua',
 	'server/*.lua'
 }
 
